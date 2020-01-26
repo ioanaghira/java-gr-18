@@ -11,5 +11,13 @@ public class MainLight {
         bec2.brighten();
         bec2.brighten();
         bec2.dimen();
+
+        Light bec3 = new Light(10);
+
+        bec3.off();
+        bec3.brighten();
+        {
+            System.out.println(bec3);
+        }
     }
 }
