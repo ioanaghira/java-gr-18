@@ -3,6 +3,7 @@ package composition;
 public class Camera {
     private String culoare;
     private int marime;
+
     //constructor
     public Camera() {
 
@@ -24,5 +25,5 @@ public class Camera {
 
     public void setMarime(int marime) {
         this.marime = marime;
-    }
+    }//e parte din cladire IS part of? si daca cladirea e distrusa e distrusa si camera
 }

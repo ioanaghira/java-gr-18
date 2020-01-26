@@ -1,4 +1,4 @@
-public class Light {
+public class Light { //clasa de baza
     //attributes
 
     //constante
@@ -10,7 +10,7 @@ public class Light {
 
 
     //Constructor are ca si atribut step
-    public Light(int step){
+    public Light(int step){ //var locala
         this.step = step; //punem this si ia atribulul clasei nu metodei
         this.intensitateaCurenta = 0;
 

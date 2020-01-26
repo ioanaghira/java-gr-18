@@ -18,13 +18,13 @@ public class MainDreptunghi {
         private double lungime;
         private double latime;
 
-        public Dreptunghi(double lungime, double latime) {
+        public Dreptunghi(double lungime, double latime) {//constructor
 
             this.latime = latime;
             this.lungime = lungime;
         }
 
-        public double getArie() {
+        public double getArie() {//metode
 
             return lungime * latime;
         }
