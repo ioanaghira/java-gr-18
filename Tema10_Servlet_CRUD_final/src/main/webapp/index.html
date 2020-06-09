@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" action="SaveUser">
+
+    <table width="100px" bgcolor="#99ccff">
+
+        <tr><td colspan="2"><h3>User Register form</h3></td> </tr>
+        <tr>
+            <td>ID: :</td>
+            <td><input type="text" name="id"/></td>
+        </tr>
+
+        <tr>
+        <td>Name:</td>
+            <td><input type="text" name="name"/></td>
+
+        </tr>
+
+        <tr>
+        <td>Email:</td>
+
+        <td><input type="text" name="email"/></td>
+        </tr>
+
+        <tr>
+            <td>Password:</td>
+
+            <td><input type="password" name="password"/></td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td>
+                <select name="type" style="width:100px">
+                    <option>Admin</option>
+                    <option>Normal</option>
+
+                </select>
+
+            </td>
+        </tr>
+
+        <tr><td><input type="submit" value="Save User"></td></tr>
+    </table>
+
+
+</form>
+
+<p><a href ="ViewUser">View User</a></p>
+</body>
+</html>
