@@ -1,0 +1,8 @@
+tema10\domain\UserModel.class
+tema10\servlet\DeleteUser.class
+tema10\servlet\Edit.class
+tema10\domain\UserModel$UserModelBuilder.class
+tema10\servlet\LifeCycle.class
+tema10\servlet\SaveUser.class
+tema10\servlet\EditUser.class
+tema10\servlet\ViewUser.class

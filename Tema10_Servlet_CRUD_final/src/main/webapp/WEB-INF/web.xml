@@ -1,0 +1,54 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+
+  <servlet>
+    <servlet-name>viewUser</servlet-name>
+    <servlet-class>tema10.servlet.ViewUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>viewUser</servlet-name>
+    <url-pattern>/tema10/ViewUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>editUser</servlet-name>
+    <servlet-class>tema10.servlet.EditUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>editUser</servlet-name>
+    <url-pattern>/tema10/EditUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>edit</servlet-name>
+    <servlet-class>tema10.servlet.Edit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>edit</servlet-name>
+    <url-pattern>/tema10/Edit</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>deleteUser</servlet-name>
+    <servlet-class>tema10.servlet.DeleteUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteUser</servlet-name>
+    <url-pattern>/tema10/DeleteUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>servlet</servlet-name>
+    <servlet-class>tema10.servlet.LifeCycle</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>servlet</servlet-name>
+    <url-pattern>/tema10/hello</url-pattern>
+  </servlet-mapping>
+</web-app>
